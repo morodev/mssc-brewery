@@ -9,7 +9,7 @@ import java.util.UUID;
 /**
  * Created By Luca Moro on 04/01/2021 12:35
  */
-@Service
+
 public interface BeerServiceV2 {
     BeerDtoV2 getBeerById(UUID beerId);
 
